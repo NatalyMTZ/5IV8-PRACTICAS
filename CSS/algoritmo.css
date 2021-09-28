@@ -1,0 +1,23 @@
+body {
+    font: 1rem/1.5 var(--bs-font-sans-serif);
+}
+
+$colors: (
+  "blue":       $blue,
+  "indigo":     $indigo-300,
+  "purple":     $purple,
+  "pink":       $pink,
+  "red":        $red,
+  "orange":     $orange,
+  "yellow":     $yellow,
+  "green":      $green,
+  "teal":       $teal,
+  "cyan":       $cyan,
+  "white":      $white,
+  "gray":       $gray-600,
+  "gray-dark":  $gray-800
+);
+
+h1{
+    color: var(--bs-indigo);
+}
